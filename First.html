@@ -2,22 +2,79 @@
 <html>
     <head>
         <title>Albert Einstein</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
         <style>
             h1{
                 font-size: 50px;
                 text-align: center;
-                background: -webkit--linear-gradient(bottom,rgba(0,0,0,1),rgba(255,255,255,1));
+                background: linear-gradient(to bottom,#cc2b5e , #753a88);
+                color:aliceblue;
+                font-family: 'RocknRoll One', sans-serif;
+                border-radius: 1;
+                margin-top: auto;
             } 
             h3{
                 text-align: center;
-                margin: -20px 0px 0px 0px;
+                margin: -20px 0px 5px 0px;
+            }
+            #img{
+                margin: 0 auto;  
+                display: block;
+                border-radius: 10px;              
+            }
+            figcaption{
+                text-align: center;
+            }            
+            #tribute-info{
+                background-color: rgba(14, 89, 187, 0.1);
+                font-size: 25px;
+                font-family: 'Times New Roman', Times, serif;                
+                padding: 10px 10px 5px 10px;
+                text-align: justify;
+                margin-bottom: 10px;
+            }
+            li{
+                margin: 2px 2px 2px 2px;
+            }
+            footer{
+                text-align: center;
+                font-size: 25px;
             }
         </style>
     </head>
-    <body>        
-        <h1 id ="title"> Albert Einstein </h1>
-        <h3>"If you can't explain it simply, you don't understand it well enough."</h3>
-        
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js."></script>
+    <body>
+        <main id="main">      
+            <h1 id ="title"> Albert Einstein </h1>
+            <h3>"If you can't explain it simply, you don't understand it well enough."</h3>
+            <div id="img-div">
+                <figure>
+                    <img src="https://images.yourstory.com/cs/7/4c455a90a21411e98b07315772315642/AlbertEinsteinPlaceholderyswFotor-1583923792506.png?fm=png&auto=format" id="img">
+                    <figcaption id="img-caption"> Albert Einstein</figcaption>
+                </figure>
+            </div >
+            <div id="tribute-info" >
+                <p>Albert Einstein was a German-born theoretical physicist, widely acknowledged to be one of the 
+                    greatest physicists of all time. Einstein is known for developing the theory of relativity, 
+                    but he also made important contributions to the development of the theory of quantum mechanics.</p>
+                <ul>
+                    <li><strong>1921–1922: Travels abroad - </strong>Einstein visited New York City for the first time on 
+                        2 April 1921, where he received an official welcome by Mayor John Francis Hylan, followed by three
+                         weeks of lectures and receptions.He went on to deliver several lectures at Columbia University and 
+                         Princeton University, and in Washington, he accompanied representatives of the National Academy of
+                          Science on a visit to the White House. On his return to Europe he was the guest of the British 
+                          statesman and philosopher Viscount Haldane in London, where he met several renowned scientific, 
+                          intellectual, and political figures, and delivered a lecture at King's College London</li>
+                    <li><strong>1930–1931: Travel to the US - </strong>In December 1930, Einstein visited America for the
+                         second time, originally intended as a two-month working visit as a research fellow at the California 
+                         Institute of Technology. After the national attention, he received during his first trip to the US, 
+                         he and his arrangers aimed to protect his privacy. Although swamped with telegrams and invitations 
+                         to receive awards or speak publicly, he declined them all.</li>
+                </ul>                
+            </div>
+            <footer>For more info about <i>Albert Einstein</i> please visit <a href="https://en.wikipedia.org/wiki/Albert_Einstein"
+                target="_blank" id="tribute-link">This Link</a></footer>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js."></script>
+        </main>
     </body>
 </html>
