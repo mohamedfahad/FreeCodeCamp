@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+li{    
+    padding: 0 35px 0 35px;
+    font-size: 20px;
+    display:inline
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+nav{    
+    position:absolute;
+    top: 20px;
+    right: 16px;
+}
+
+#header-img{
+    height: 80px;
+    width: fit-content;
+    background-size: auto;
+    
+}
+a:hover{        
+    color:black;
+    background-color: rgb(9, 47, 216);
+    background-size: 2em;
+    /* border: 1px solid black; */
+}
+#mainHeading{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+#formElement{
+    margin:0 auto;
+    position: relative;
+    width:300px;
+    padding-left: 2em;
+}
+#email{
+    width:250px;
+}
+#submit{
+    border:0;
+    width: 200px;
+    height:20px;
+    text-align: center;
+    background: yellow;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 2em;
+    text-shadow: teal;
+}
+#mainHeader{
+    color:white;
+    position:absolute;
+    top: 5px;
+    left: 16px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+#textContainer{
+    display: block;   
+    margin-left: 500px;
+    margin-top: 50px;
+    /* background-color: teal; */
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    margin-top: -15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#working{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#pricing{
+    display:flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-items: center;
+    margin:0 150px;
+}
+.product{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin: 2px auto;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: calc(100% / 3);
+}
+.product>.priceHeading{
+    background-color: #ddd;
+    width:100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.product>ul{
+    margin: 5px 0;
+    /* margin-right: 10px; */
+}
+.product>ul>li{
+    /* padding: 10px 0; */
+    margin-right: 10px;
+    margin-bottom: 5px;
+    list-style: none;
+    /* background-color: teal; */
+    /* padding-bottom: 20px; */
+}
+footer {
+    background-color: #ddd;
+    padding: 20px;    
+}
+footer>ul {
+    display: flex;
+    justify-content: flex-end;
+    color:black;
+}
+
+footer>ul>li {
+    padding: 0 10px;
+}
+
+footer>span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
+@media (max-width:500px){
+    body{
+        background-color: blue;
+    }
+}
