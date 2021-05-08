@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    text-align: justify;    
+    display: flex;
+}
+
+.navigation{
+    background: lightsalmon;
+    display: flex;   
+    flex-direction: row; 
+    overflow-x: hidden;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: space-around;    
+    text-align: center;    
+    width:20%;
+    height:100%;
+    /* position: fixed; */
+}
+section > header{
+    font-size: 2.5rem;
+}
+section>p{
+    margin:10px 10px 5px 10px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+section>header{
+    margin: 5px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 1px;
+    font-size: 25px;
+}
+.list{
+    margin:10px 10px 5px 10px;
+    padding-left: 5%;
+    background-color: linen;
+    
+}
+#nav-bar>ul>li{
+    background-color: lawngreen;
+    top:0;
+    line-height: 2rem;
+    list-style: none;
+    border-top: solid 0.5px;
+    width:auto;   
+    margin:0;
+    padding:0;
+    font-size: x-large;
+    
+}
+#nav-bar>ul{
+    margin:0px;
+    border-right: solid 0.5px; 
+}
+#nav-bar>header{
+    /* margin:10px 0; */
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 0.75px;
+    padding: 10px 0;    
+    font-size: 1.5rem;
+    border-bottom: transparent;
+}
+#nav-bar>ul>li>a{
+    text-decoration: none;
+}
+@media only screen and (max-width:815px){
+    body{
+        display: flex;
+        flex-direction: row;        
+    }
+    .navigation{        
+    
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: -1;
+    border-bottom: 2px solid;
+    }
+    nav{
+        display:block;
+        line-height: 1.5rem;
+    }
+    .container{
+        margin-top: 270px;
+        margin-bottom: 20px;
+        position: absolute;
+    }
+    #nav-bar{
+        width:100%;
+    }
+}
